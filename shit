@@ -39,7 +39,7 @@ for __,v in pairs(game:GetService("Workspace").Chests:GetChildren()) do
         local c = Instance.new('TextLabel',b)
         c.Size = UDim2.new(1,0,1,1)
         c.BorderSizePixel = 0
-        c.TextSize = 15
+        c.TextSize = 8
         c.Text = v.Name
         c.BackgroundTransparency = 1
         c.TextColor3 = tcolor
